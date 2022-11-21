@@ -6,7 +6,7 @@ public static void main(String[]args)
 {System.out.println("Made by Dheeraj Upadhyay");
 double total=0.0;
 double per;
-string sub[]=new int[];
+string sub[]=new string[];
 double marks[]=new double[];
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter the student name");
