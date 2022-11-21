@@ -21,7 +21,16 @@ for(int j=0;j<n;j++)
 {total=total+marks[j];
 }
 per=total/n;
+System.out.println("Student name : ");
+System.out.println("Subjects : ");
 
+
+for(int k=0;k<n;k++)
+{System.out.println(sub[k]+"\t");}
+System.out.println("Marks    : ");
+for(int l=0;l<n;l++)
+{System.out.println(marks[l]);}
+System.out.println("Total percentage gained : "+per);
 
 
 
