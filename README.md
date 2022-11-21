@@ -10,7 +10,7 @@ double per;
 
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter the student name");
-string name=sc.nextLine();
+String name=sc.nextLine();
 System.out.println("Enter the number of subjects");
 int n=sc.nextInt();
 System.out.println("Enter the subject as well as marks");
