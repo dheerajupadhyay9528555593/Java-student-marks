@@ -10,16 +10,19 @@ double per;
 
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter the student name");
-String name=sc.nextLine();
+String name=sc.next();
+sc.nextLine();
 System.out.println("Enter the number of subjects");
 int n=sc.nextInt();
-System.out.println("Enter the subject as well as marks");
+
 String sub[]=new String[n];
 double marks[]=new double[n];
-
+System.out.println("Enter the subjects as well as marks");
 for(int i=0;i<n;i++)
-{sub[i]=sc.nextLine();
-marks[i]=sc.nextDouble();}
+{sub[i]=sc.next();
+sc.nextLine();
+marks[i]=sc.nextDouble();
+}
 for(int j=0;j<n;j++)
 {total=total+marks[j];
 }
