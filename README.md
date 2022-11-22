@@ -3,25 +3,27 @@ import java.util.*;
 public class Student
 {
 public static void main(String[]args)
-{System.out.println("Made by Dheeraj Upadhyay");
-double total=0.0;
+{
+
+Scanner sc=new Scanner(System.in);
+System.out.println("Made by Dheeraj Upadhyay");
+int total=0;
 double per;
 
 
-Scanner sc=new Scanner(System.in);
 System.out.println("Enter the student name");
 String name=sc.next();
-sc.nextLine();
+
 System.out.println("Enter the number of subjects");
 int n=sc.nextInt();
 
 String sub[]=new String[n];
-double marks[]=new double[n];
+int marks[]=new int[n];
 System.out.println("Enter the subjects as well as marks");
 for(int i=0;i<n;i++)
 {sub[i]=sc.next();
-sc.nextLine();
-marks[i]=sc.nextDouble();
+
+marks[i]=sc.nextInt();
 }
 for(int j=0;j<n;j++)
 {total=total+marks[j];
